@@ -1,16 +1,13 @@
 <?php 
-echo '<h1>Hola Mundo</h1>';
 
-?>
+/* SE MANDAN A LLAMAR TODOS LOS CONTROLADORES*/
+require_once "controllers/usuarios.controlador.php";
+require_once "controllers/sistema.controlador.php";
 
-<style>
-h1 {
-color: blue;
-font-size: 150px;
-text-aling: center;
-font-family: arial;
-margin-left: 20%;
-}
 
-</style>
 
+/* SE MANDAN A LLAMAR TODOS LOS MODELOS*/
+require_once "models/usuarios.modelo.php";
+
+$acceder = new sistemaControlador();
+$acceder -> accederGrovice();
