@@ -24,17 +24,16 @@
 					<!-- Search Field -->
 					<div class="intro-search-field">
 					<label for="autocomplete-input" class="field-title ripple-effect">¿Que servicio necesitas?</label>
-						<select class="selectpicker default" data-selected-text-format="count" data-size="7" title="Selecciona un servicio">
-							<option>Admin Support
-							<option>Customer Service
-							<option>Data Analytics
-							<option>Design & Creative
-							<option>Legal
-							<option>Software Developing
-							<option>IT & Networking
-							<option>Writing
-							<option>Translation
-							<option>Sales & Marketing
+						<select class="selectpicker default" data-selected-text-format="count" id="select_catServ" title="Selecciona un servicio">
+						<?php
+								$servicio = controladorServicios::ctrmostrarCategoriasServicios();
+								
+								foreach ($servicio as $key => $value) {
+									echo '<option value="'.$value["id_categoria_servicio"].'">'.$value["nombre_servicio"].'</option>';
+								}
+								
+					?>
+							
 						</select>
 					</div>
 

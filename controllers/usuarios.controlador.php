@@ -9,7 +9,7 @@ class ControladorUsuarios {
                 if(preg_match('/^[a-zA-Z0-9]+$/', $_POST["ingPassword"])) {
 
                         
-                        $tabla = "socios";
+                        $tabla = "usuarios";
                         $item = "email";
                         $valor = $_POST["ingCorreo"];
                         
@@ -19,7 +19,7 @@ class ControladorUsuarios {
                             $_POST["ingPassword"])
                             {
                                 $_SESSION["iniciarSesion"] = "ok";
-                                $_SESSION["nombreCompleto"] = $respuesta["nombre"].$respuesta["apellidos"];
+                                $_SESSION["nombreCompleto"] = $respuesta["nombre"].$respuesta["apellido_paterno"];
 
                                 $_SESSION["nombre"] = $respuesta["nombre"];
                               

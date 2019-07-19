@@ -28,7 +28,7 @@ include "views/include/head.php";
 
                 if (isset($_GET["ruta"])) {
                     if ($_GET["ruta"] == "inicio" ||
-                    $_GET["ruta"] == "salir" ||
+                         $_GET["ruta"] == "salir" ||
                         $_GET["ruta"] == "socio") {
     
                         include "pages/" . $_GET["ruta"] . ".php";
