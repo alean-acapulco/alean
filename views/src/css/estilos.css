@@ -12,6 +12,11 @@
     box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.12);
 }
 
-.optionPerzo:hover {
-    background-color: red;
+.intro-search-field {
+    padding: 0px 12px;
+    border-right: 1px solid #e4e4e4;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    position: relative;
 }
