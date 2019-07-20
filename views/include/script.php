@@ -52,3 +52,4 @@ $('#snackbar-user-status label').click(function() {
 
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgeuuDfRlweIs7D6uo4wdIHVvJ0LonQ6g&libraries=places"></script>
+<script src="sources/js/acciones.js"></script>

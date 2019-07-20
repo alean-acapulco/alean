@@ -23,39 +23,6 @@
 								<li><a href="#">Historia</a></li>
 							</ul>
 						</li>
-
-						<li><a href="#">Find Work</a>
-							<ul class="dropdown-nav">
-								<li><a href="#">Browse Jobs</a>
-									<ul class="dropdown-nav">
-										<li><a href="jobs-list-layout-full-page-map.htm">Full Page List + Map</a></li>
-										<li><a href="jobs-grid-layout-full-page-map.htm">Full Page Grid + Map</a></li>
-										<li><a href="jobs-grid-layout-full-page.htm">Full Page Grid</a></li>
-										<li><a href="jobs-list-layout-1.htm">List Layout 1</a></li>
-										<li><a href="jobs-list-layout-2.htm">List Layout 2</a></li>
-										<li><a href="jobs-grid-layout.htm">Grid Layout</a></li>
-									</ul>
-								</li>
-								<li><a href="#">Browse Tasks</a>
-									<ul class="dropdown-nav">
-										<li><a href="tasks-list-layout-1.htm">List Layout 1</a></li>
-										<li><a href="tasks-list-layout-2.htm">List Layout 2</a></li>
-										<li><a href="tasks-grid-layout.htm">Grid Layout</a></li>
-										<li><a href="tasks-grid-layout-full-page.htm">Full Page Grid</a></li>
-									</ul>
-								</li>
-								<li><a href="browse-companies.htm">Browse Companies</a></li>
-								<li><a href="single-job-page.htm">Job Page</a></li>
-								<li><a href="single-task-page.htm">Task Page</a></li>
-								<li><a href="single-company-profile.htm">Company Profile</a></li>
-							</ul>
-						</li>
-
-						
-
-					
-
-
 					</ul>
 				</nav>
 				<div class="clearfix"></div>

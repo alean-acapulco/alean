@@ -5,5 +5,7 @@
 <!-- ::::::... IMPORTANCION DE CSS ...::::: -->
 <link rel="stylesheet" href="views/src/css/style.css">
 <link rel="stylesheet" href="views/src/css/colors/blue.css">
+<link rel="stylesheet" href="views/src/css/estilos.css">
+
 <!-- ::::::... IMPORTANCION DE CSS ...::::: -->
 </head>

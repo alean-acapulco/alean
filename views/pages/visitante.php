@@ -22,7 +22,7 @@
 						</div>
 					</div>
 					<h3>Crea una cuenta</h3>
-					<p>Bring to the table win-win survival strategies to ensure proactive domination going forward.</p>
+					<p>Es facil, seguro y gratuito</p>
 				</div>
 			</div>
 
@@ -32,12 +32,12 @@
 					<!-- Icon -->
 					<div class="icon-box-circle">
 						<div class="icon-box-circle-inner">
-							<i class="icon-line-awesome-legal"></i>
+							<i class="icon-feather-briefcase"></i>
 							<div class="icon-box-check"><i class="icon-material-outline-check"></i></div>
 						</div>
 					</div>
-					<h3>Post a Task</h3>
-					<p>Efficiently unleash cross-media information without. Quickly maximize return on investment.</p>
+					<h3>Busca lo que necesitas</h3>
+					<p>Busca entre más de 200 servicios y seleciona el que necesites</p>
 				</div>
 			</div>
 
@@ -47,12 +47,12 @@
 					<!-- Icon -->
 					<div class="icon-box-circle">
 						<div class="icon-box-circle-inner">
-							<i class=" icon-line-awesome-trophy"></i>
+							<i class="icon-line-awesome-graduation-cap"></i>
 							<div class="icon-box-check"><i class="icon-material-outline-check"></i></div>
 						</div>
 					</div>
-					<h3>Choose an Expert</h3>
-					<p>Nanotechnology immersion along the information highway will close the loop on focusing solely.</p>
+					<h3>Contrata a un experto</h3>
+					<p>Expertos 100% certificados.</p>
 				</div>
 			</div>
 
