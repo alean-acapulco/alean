@@ -7,7 +7,7 @@
 			<div class="col-md-12">
 				<div class="banner-headline">
 					<h3>
-						
+
 						<strong>Contrata expertos para cualquier trabajo, en cualquier momento. </strong>
 						<br>
 						<span>Unete a la red de trabajo más grande de Acapulco</span>
@@ -42,7 +42,7 @@
 					<div class="intro-search-field">
 						<label for="intro-keywords" class="field-title ripple-effect">¿Que servicio necesitas?</label>
 
-						<select class="selectpicker default" data-selected-text-format="count" data-size="7" title="Elige una categoria" id="sel_catSev">
+						<select class="selectpicker default"  data-live-search="true" data-selected-text-format="count" data-size="7" title="Elige una categoria" id="sel_catSev">
 							<?php
 							$servicio = controladorServicios::ctrmostrarCategoriasServicios();
 
@@ -55,19 +55,18 @@
 					</div>
 					<!-- SELECCIONAR CATEGORIA DE SERVICIOS -->
 
-					
-					<div class="intro-search-field">
 
-						<select class="selectPerzonalizado " data-selected-text-format="count" data-size="7" title="Elige una categoria" id="servicios">
-							<option value="">Seleccione un servicio</option>
-						
-	
-						</select>
-						
+				
+					<div class="intro-search-field">
+							<select name="" class="selectPerzonalizado" id="servicios">
+								<option value="">Selecciona un servicio</option>
+
+
+							</select>
 					</div>
 
 
-				
+
 
 
 
@@ -104,3 +103,5 @@
 
 	</div>
 </div>
+
+

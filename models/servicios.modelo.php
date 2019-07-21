@@ -10,6 +10,7 @@ class ModeloServicios {
         $stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla");
         $stmt -> execute();
         return $stmt -> fetchAll();
+        $stmt -> close();
         $stmt = null;
 
     }
@@ -19,6 +20,7 @@ class ModeloServicios {
         $stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla");
         $stmt -> execute();
         return $stmt -> fetchAll();
+        $stmt -> close();
         $stmt = null;
 
 
@@ -27,8 +29,18 @@ class ModeloServicios {
         $stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE id_categoria_servicio = $valor");
         $stmt -> execute();
         return $stmt -> fetchAll();
+        $stmt -> close();
         $stmt = null;
 
+    }
+
+    static public function mdlMostrarSexo($tabla) {
+        $stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla");
+        $stmt -> execute();
+        return $stmt -> fetchAll();
+        $stmt -> close();
+        $stmt = null;
+        
     }
 
 }

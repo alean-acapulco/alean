@@ -1,11 +1,7 @@
 <?php
-
 class sistemaControlador {
 
-    public static function accederGrovice(){
-
-        include "views/plantilla.php";
-
-
+    public static function SistemaGrovice(){
+            include "views/sistema.php";
     }
 }

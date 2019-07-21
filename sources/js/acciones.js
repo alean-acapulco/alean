@@ -12,6 +12,7 @@ $('#sel_catSev').on('change', function() {
         processData: false,
         success: function(respuesta) {
 
+
             $("#servicios").html(respuesta);
 
         }
@@ -19,3 +20,43 @@ $('#sel_catSev').on('change', function() {
     });
 });
 /* FILTRAR PARA SELECIONAR EL SERVICIO*/
+
+$('.account-type-radio').on('click', function() {
+    var id_tipoUsuario = $(this).val();
+});
+
+
+$('#registroUsuario').on('click', function() {
+
+    var id_tipoUsuario = "";
+    $("input:radio:checked").each(
+        function() {
+            id_tipoUsuario += $(this).val()
+
+        }
+    );
+
+    var nombre = $('#txt_nombre').val();
+    var apellidos = $('#txt_apellidos').val();
+    var fecha_N = $('#txt_fechaN').val();
+    var curp = $('#txt_curp').val();
+    var email = $('#txt_correo').val();
+    var cel = $('#txt_cel').val();
+    var tel = $('#txt_tel').val();
+    var facebook = $('#txt_facebook').val();
+    var ciudad = $('#select_ciudad').val();
+    var servicio = $('#servicios').val();
+    var sexo = $('#select_sexo').val();
+
+
+
+
+
+
+
+
+    alert(servicio);
+
+
+
+});

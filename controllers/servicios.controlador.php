@@ -24,5 +24,13 @@ class controladorServicios {
         $respuesta = ModeloServicios::mdlFiltrarServicios($tabla, $valor);
         return $respuesta;
     }
+
+
+    static public function ctrMostrarSexo()
+    {
+        $tabla = "sexo";
+        $respuesta = ModeloServicios::mdlMostrarSexo($tabla);
+        return $respuesta;
+    }
 }
 

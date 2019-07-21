@@ -1,7 +1,5 @@
-<!--::::::::::::::.. COMIENZA EL HEADER ....:::::::::::::::::.: -->
 <header id="header-container" class="fullwidth transparent">
 
-    <!-- Header -->
     <div id="header">
         <div class="container">
 
@@ -15,8 +13,8 @@
 
                 <!-- Main Navigation -->
                 <nav id="navigation">
-
                     <ul id="responsive">
+
                         <li><a href="#" class="current">¿Quienes somos?</a>
                             <ul class="dropdown-nav">
                                 <li><a href="#">¿Que hacemos?</a></li>
@@ -25,9 +23,7 @@
                             </ul>
                         </li>
                     </ul>
-
                 </nav>
-                
                 <div class="clearfix"></div>
                 <!-- Main Navigation / End -->
 
@@ -39,7 +35,7 @@
             <div class="right-side">
 
                 <div class="header-widget">
-                    <a href="#sign-in-dialog" class="popup-with-zoom-anim log-in-button"><i class="icon-feather-log-in"></i> <span>Iniciar / Registrar</span></a>
+                    <a href="#sign-in-dialog" class="popup-with-zoom-anim log-in-button"><i class="icon-feather-log-in"></i> <span>Iniciar sesión</span></a>
                 </div>
 
                 <!-- Mobile Navigation Button -->
@@ -56,12 +52,6 @@
 
         </div>
     </div>
-    <!-- Header / End -->
+
 
 </header>
-<div class="clearfix"></div>
-
-
-<!--::::::::::::::.. TERMINA  EL HEADER ....:::::::::::::::::.: -->
-
-

@@ -1,8 +1,10 @@
+
+
 <?php 
 
 /* SE MANDAN A LLAMAR TODOS LOS CONTROLADORES*/
 require_once "controllers/usuarios.controlador.php";
-require_once "controllers/visitante.controlador.php";
+require_once "controllers/sistema.controlador.php";
 require_once "controllers/servicios.controlador.php";
 
 

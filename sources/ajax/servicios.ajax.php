@@ -16,14 +16,16 @@ class AjaxServicios {
 
 
     
-    
-       foreach ($respuesta as $key => $value) {
+       
+        $inputs = "";
         
-        echo '<option class="optionPerzo">'.$value["nombre_servicio"].'</option>';
-       }
 
 
-    //echo json_encode($respuesta);
+       foreach ($respuesta as $key => $value) {
+            $inputs .='<option value="'.$value["id_servicio"].'" class="optionPerzo">'.$value["nombre_servicio"].'</option>';    
+        }
+
+        echo $inputs;
        
     
 
