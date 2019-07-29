@@ -45,10 +45,139 @@
 
 .tituloRegistro {
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
     color: #6a6a6baf;
 }
 
 .margenRegistro {
     margin-top: -15px;
+}
+
+.titulos {
+    text-align: center;
+    margin-top: 02%;
+    color: #434344be;
+    font-size: 19px;
+}
+
+.divServicio {
+    margin-top: 02%;
+}
+
+#titServ {
+    margin-top: 03%;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropup .dropdown-toggle::after {
+    display: none;
+}
+
+.datosPersonales {
+    margin-top: 02%;
+}
+
+.Concurp {
+    margin-top: -05%;
+    margin-left: 02%;
+    font-size: 14px;
+}
+
+
+/* ::::::::::::::::::.... CONFIGURACION DE SMARTH WIZARD ....::::::::::::::::::*/
+
+
+/* ==================  ESTILOS DE LOS PASOS ==================*/
+
+.pasos {
+    margin-top: 01%;
+}
+
+.sw-theme-circles>ul.step-anchor>li>a {
+    border: 2px solid #f5f5f5;
+    background: #f5f5f5;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    padding: 25px 0;
+    border-radius: 50%;
+    -webkit-box-shadow: inset 0px 0px 0px 3px #fff !important;
+    box-shadow: inset 0px 0px 0px 3px #fff !important;
+    text-decoration: none;
+    outline-style: none;
+    z-index: 99;
+    color: #bbb;
+    background: #f5f5f5;
+    line-height: 1;
+}
+
+
+/* ESTILO DE LA LINEA */
+
+.sw-theme-circles>ul.step-anchor:before {
+    width: 16%;
+}
+
+
+/* ESTILO DE LA LINEA */
+
+
+/* ==================  ESTILOS DE LOS PASOS ==================*/
+
+
+/* CONFIGURACION DE LOS BOTONES SMARTH WIZARD */
+
+.btn-group,
+.btn-group-vertical {
+    margin-bottom: 2%;
+}
+
+
+/* CONFIGURACION DE LOS BOTONES SMARTH WIZARD */
+
+
+/* ::::::::::::::::::.... CONFIGURACION DE SMARTH WIZARD ....::::::::::::::::::*/
+
+div.datedropper .picker+div a {
+    text-decoration: none;
+    color: currentColor;
+    display: none;
+}
+
+.inputIne {
+    margin-top: -15px;
+}
+
+#tituloIne {
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.list-unstyled {
+    color: #dc3545;
+    margin-top: -19px;
+    font-size: 14px;
+    position: absolute;
+}
+
+#errorSelect {
+    padding-top: 10px;
+}
+
+#tiContacto {
+    margin-top: -30px;
+}
+
+#errorCurp {
+    margin-left: 35%;
+    margin-top: -7%;
+}
+
+#passResp {
+    color: #28a745;
+    position: absolute;
+    margin-top: -18px;
 }

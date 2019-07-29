@@ -26,6 +26,9 @@ $('.account-type-radio').on('click', function() {
 });
 
 
+
+
+/* :::::::::... FUNCION PARA REGISTRAR UN USUARIOS ...:::::::::: */
 $('#registroUsuario').on('click', function() {
 
     var id_tipoUsuario = "";
@@ -47,16 +50,26 @@ $('#registroUsuario').on('click', function() {
     var ciudad = $('#select_ciudad').val();
     var servicio = $('#servicios').val();
     var sexo = $('#select_sexo').val();
-
-
-
-
-
-
-
-
     alert(servicio);
-
-
-
 });
+/* :::::::::... FUNCION PARA REGISTRAR UN USUARIOS ...:::::::::: */
+
+
+/* ::::::::... CONVERTIR CURP EN MAYUSCULAS ..:::::::: */
+function Curp() {
+    var x = document.getElementById("txt_curp");
+    x.value = x.value.toUpperCase();
+}
+/* ::::::::... CONVERTIR CURP EN MAYUSCULAS ..:::::::: */
+
+function validarPassoword() {
+    var pass2 = $('#txt_password2').val();
+    var pass = $('#txt_password').val();
+    if (pass2 == pass) {
+        document.getElementById('passResp').style.color = "#28a745";
+        $("#passResp").html("¡Las contraseñas coinciden!");
+    } else {
+        $("#passResp").html("¡La contraseña no coinciden!");
+        document.getElementById('passResp').style.color = "#dc3545";
+    }
+}
