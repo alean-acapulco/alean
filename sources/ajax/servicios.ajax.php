@@ -13,14 +13,8 @@ class AjaxServicios {
         $valor = $this->id_categoria;
         $respuesta = ModeloServicios::mdlFiltrarServicios($tabla, $valor);
     
-
-
-    
-       
         $inputs = "";
-        
-
-
+    
        foreach ($respuesta as $key => $value) {
             $inputs .='<option value="'.$value["id_servicio"].'" class="optionPerzo">'.$value["nombre_servicio"].'</option>';    
         }
@@ -28,14 +22,7 @@ class AjaxServicios {
         echo $inputs;
        
     
-
-
     }
-
-
-
-
-
 }
 if((isset($_POST["id_categoria"]))) {
     $filtro = new AjaxServicios();

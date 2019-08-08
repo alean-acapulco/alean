@@ -181,3 +181,18 @@ div.datedropper .picker+div a {
     position: absolute;
     margin-top: -18px;
 }
+
+#generarUsuario {
+    width: 160px;
+    display: none;
+}
+
+
+/* ESTILOS PERZONALIZADOS PARA EL SWEET ALERT */
+
+.swal-text {
+    text-align: center;
+}
+
+
+/* ESTILOS PERZONALIZADOS PARA EL SWEET ALERT */

@@ -37,6 +37,8 @@
 
 										<!-- :::::::::::... ELEGIR TIPO DE CUENTA .....:::::::::::: -->
 										<div id="step-1" class="">
+
+
 											<div class="col-lg-12 col-mg-12">
 
 												<h3 class="titulos">Elige el tipo de cuenta</h3>
@@ -57,6 +59,8 @@
 
 											</div>
 
+											<h3 class="titulos" id="titCliente">Selecciona el lugar en donde vives</h3>
+											
 											<h3 class="titulos" id="titServ">Selecciona un servicio</h3>
 
 											<div class="row d-flex justify-content-center divServicio">
@@ -76,7 +80,7 @@
 													</div>
 												</div>
 
-												<div class="col-xl-3">
+												<div class="col-xl-3" id="opcionServicio">
 													<div class="submit-field">
 														<select class="selectpicker with-border" data-live-search="true" data-size="6" title="Elige una categoria de servicios" id="sel_catSev">
 															<?php
@@ -90,7 +94,7 @@
 													</div>
 												</div>
 
-												<div class="col-xl-3">
+												<div class="col-xl-3" id="opcionServicio2">
 													<div class="submit-field">
 
 														<select name="" class="" id="servicios">
@@ -201,7 +205,7 @@
 												<div class="form-group col-xl-3">
 													<div class="input-with-icon-left">
 														<i class="icon-material-outline-person-pin"></i>
-														<input type="text" class="input-text with-border" id="txt_curp" maxlength="18" minlength="18"  placeholder="CURP" required onkeyup="Curp()">
+														<input type="text" class="input-text with-border" id="txt_curp" maxlength="18" minlength="18" placeholder="CURP" required onkeyup="Curp()">
 														<p class="Concurp"><a href="https://consisa.com.mx/curp" target="_blank">Consultar CURP</a></p>
 														<div id="errorCurp" class="help-block with-errors"></div>
 
@@ -226,7 +230,7 @@
 												<div class="col-xl-3">
 													<div class="input-with-icon-left">
 														<i class="icon-line-awesome-key"></i>
-														<input type="password" class="input-text with-border" id="txt_password" placeholder="Contraseña" required="">
+														<input type="password" class="input-text with-border" id="txt_password" placeholder="Contraseña" required="" onkeyup="validarPassoword()">
 													</div>
 												</div>
 
@@ -265,7 +269,6 @@
 
 
 											<div class="col-md-4 mb-3">
-												
 
 												<div class="row d-flex justify-content-center">
 													<div class="col-lg-2 col-md-2 col-xs-12 inputIne">
@@ -281,17 +284,27 @@
 													</div>
 
 												</div>
+											</div>
+											<!-- :::::::::::... PASO DE SEGURIDAD .....:::::::::::: -->
+											<div class="row">
+												<div class=" col-xl-12">
 
+													<div class="d-flex justify-content-center">
 
+														<a href="#" class="button dark ripple-effect button-sliding-icon" id="generarUsuario">Registrarme <i class="icon-feather-check"></i></a>
+
+													</div>
+
+												</div>
 
 
 											</div>
-											<!-- :::::::::::... PASO DE SEGURIDAD .....:::::::::::: -->
-
 
 
 										</div>
 									</div>
+
+
 
 							</form>
 
@@ -395,5 +408,12 @@
 		position: absolute;
 		bottom: 0;
 		width: 100%;
+	}
+	#opcionServicio, #opcionServicio2 {
+		display: none;
+	}
+
+	#titServ {
+		display: none;
 	}
 </style>

@@ -71,10 +71,6 @@
 
 	$(document).ready(function() {
 		$('#smartwizard').smartWizard({
-			toolbarSettings: {
-
-				toolbarExtraButtons: [btnFinish]
-			},
 			theme: 'circles',
 			transitionEffect: 'fade', // Effect on navigation, none/slide/fade
 			transitionSpeed: '400',
@@ -89,7 +85,7 @@
 
 		});
 
-		$("#smartwizard").on("leaveStep", function(e, anchorObject, stepNumber, stepDirection) {
+		/* $("#smartwizard").on("leaveStep", function(e, anchorObject, stepNumber, stepDirection) {
 			var elmForm = $("#form-step-" + stepNumber);
 
 			if (stepDirection === 'forward' && elmForm) {
@@ -101,7 +97,8 @@
 				}
 			}
 			return true;
-		});
+		}); */
+
 	});
 </script>
 
