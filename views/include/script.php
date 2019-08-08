@@ -85,7 +85,7 @@
 
 		});
 
-		/* $("#smartwizard").on("leaveStep", function(e, anchorObject, stepNumber, stepDirection) {
+		$("#smartwizard").on("leaveStep", function(e, anchorObject, stepNumber, stepDirection) {
 			var elmForm = $("#form-step-" + stepNumber);
 
 			if (stepDirection === 'forward' && elmForm) {
@@ -97,7 +97,7 @@
 				}
 			}
 			return true;
-		}); */
+		}); 
 
 	});
 </script>
